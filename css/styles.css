@@ -8,16 +8,10 @@ header {
     z-index: 1;
     height: 60px;
     position: fixed;
-    background-color: rgb(90, 129, 140)
+    background-color: white;
 }
 .nav {
     text-align: center;
-}
-.topNav {
-    position: fixed;
-}
-figure {
-    position: fixed;
 }
 .slideshow-container {
     width: 100%;
