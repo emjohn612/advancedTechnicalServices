@@ -17,14 +17,15 @@ header {
 }
 .slideshow-container {
     width: 100%;
-    height: 200px;
-    padding: 10px;
 }
 .imgSlide {
     display: none;
 }
 .slideImg {
     vertical-align: middle;
+    width: 100%;
+    height: 500px;
+
 }
 .caption {
     color: #f2f2f2;
