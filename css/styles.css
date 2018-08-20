@@ -4,6 +4,7 @@
 .jumbotron {
     background-color: #2b65d6;
     color: #ffffff;
+    padding: 100px 25px;
 }
 .navbar {
     margin-bottom: 0;
@@ -29,8 +30,18 @@
     border-color: transparent;
     color: #555555 !important;
 }
-h2 {
-  text-align: center;
+.logo {
+    font-size: 200px;
+}
+#about {
+  background-color: #c9c9c9;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
 }
 .carousel-control.right, .carousel-control.left {
     background-image: none;
