@@ -64,23 +64,3 @@ h2 {
 .item span {
     font-style: normal;
 }
-.slideshow-container {
-    width: 100%;
-}
-.imgSlide {
-    display: none;
-    position: relative;
-}
-.slideImg {
-    vertical-align: middle;
-    width: 100%;
-    border-radius: 20px;
-}
-.caption {
-    color: #ffffff;
-    font-size: 15px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
