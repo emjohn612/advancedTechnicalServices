@@ -1,3 +1,7 @@
+.jumbotron {
+    background-color: #f4511e; /* Orange */
+    color: #ffffff;
+}
 .navbar {
     margin-bottom: 0;
     background-color: #656565;
