@@ -44,8 +44,14 @@ h2 {
 .carousel-indicators li.active {
     background-color: #f4511e;
 }
-
-.item h4 {
+.item img {
+  display:block;
+  margin:auto;
+}
+img {
+  height: 300px;
+}
+.item figcaption {
     font-size: 19px;
     line-height: 1.375em;
     font-weight: 400;
