@@ -9,25 +9,33 @@
     <meta name="author" content="Eric Johnston">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
-  <body class="container-fluid">
+  <body>
 
-    <header class="container-fluid">
-      <div class="row">
-        <figure class="col-md-12">
-          <img class="logo" src="img/logo.jpeg" alt="logo">
-        </figure>
-      </div>
-      <div class="container-fluid">
-        <topNav class="nav row">
-          <span class="col-md-3"><a href="#">Home</a></span>
-          <span class="col-md-3"><a href="about.html">About</a></span>
-          <span class="col-md-3"><a href="services.html">Services</a></span>
-          <span class="col-md-3"><a href="contact.html">Contact</a></span>
-        </topNav>
-      </div>
-    </header>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Logo</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#services">SERVICES</a></li>
+              <li><a href="#portfolio">PORTFOLIO</a></li>
+              <li><a href="#pricing">PRICING</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <main class="container-fluid">
       <!-- Slide Show -->
@@ -51,12 +59,12 @@
       </div>
     </main>
 
-    <footer class="container">
+    <footer class="container-fluid">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-6 text-center">
           <h4>Contact</h4>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 text-center">
           <h4>About</h4>
         </div>
       </div>
