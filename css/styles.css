@@ -5,6 +5,7 @@
     background-color: #2b65d6;
     color: #ffffff;
     padding: 100px 25px;
+    margin-bottom: 0px;
 }
 .navbar {
     margin-bottom: 0;
@@ -33,15 +34,20 @@
 .logo {
     font-size: 200px;
 }
-#about {
-  background-color: #c9c9c9;
-  margin-bottom: 30px;
-}
 @media screen and (max-width: 768px) {
-  .col-sm-4 {
-    text-align: center;
-    margin: 25px 0;
-  }
+    #about .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+#services {
+    background-color: #dadada;
+}
+#services .col-sm-6 {
+    padding: 20px;
+}
+#gallery {
+    padding: 60px 50px;
 }
 .carousel-control.right, .carousel-control.left {
     background-image: none;
@@ -56,9 +62,9 @@
     background-color: #2b65d6;
 }
 .item img {
-  display:block;
-  margin:auto;
-  min-height: 450px;
+    display:block;
+    margin:auto;
+    min-height: 450px;
 }
 .carousel img {
     max-height: 450px;
@@ -75,8 +81,22 @@
 .item span {
     font-style: normal;
 }
+#contact {
+    background-color: #dadada;
+    margin: 30px 300px;
+}
+
+footer {
+    background-color: #2b65d6;
+}
+footer p, a {
+    color: #fff;
+}
+footer a {
+    text-decoration: underline;
+}
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: #2b65d6;
+    color: #fff;
 }
