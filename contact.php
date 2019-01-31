@@ -1,24 +1,43 @@
-<!DOCTYPE html>
-<html>
-  <body>
-    <head>
-      <title>Contact</title>
-      <meta charset="UTF-8">
-      <meta name="description" content="Website for Advanced Technical Services Inc.">
-      <meta name="keywords" content="HTML,CSS,JavaScript">
-      <meta name="author" content="Eric Johnston">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="/css/styles.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    </head>
-    <header>
-      
-    </header>
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
-  </body>
-</html>
+<?php include("includes/header.php"); ?>
+<div id="contact" class="">
+            <form>
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validationDefault01">First name</label>
+                    <input type="text" class="form-control" id="validationDefault01" placeholder="First name" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationDefault02">Last name</label>
+                    <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" required>
+                  </div>
+                </div>
+            </div>
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                          <label for="validationDefault03">City</label>
+                          <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                          <label for="validationDefault04">State</label>
+                          <input type="text" class="form-control" id="validationDefault04" placeholder="State" required>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                          <label for="validationDefault05">Zip</label>
+                          <input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
+                        </div>
+                      </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                      Agree to terms and conditions
+                    </label>
+                  </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Submit form</button>
+              </form>
+        </div>
+        <?php include("includes/footer.php"); ?>

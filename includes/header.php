@@ -17,7 +17,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
   <body>
-
+<div class="container-fluid">
     <div class="jumbotron text-center">
       <h1>Advanced Technical Services</h1>
       <p>Commercial and Residential HVAC</p>
@@ -30,6 +30,7 @@
         </div>
       </form>
     </div>
-      <nav class="navbar navbar-default navbar-fixed-top">
-        
+<div>
+      <nav class="navbar navbar-expand-sm justify-content-center">
+        <?php include('includes/nav.php'); ?>
       </nav>
