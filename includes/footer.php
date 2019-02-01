@@ -4,6 +4,6 @@
         </a>
         <p>Made by <a href="http://emjohnston-fsd.com">Eric Johnston</a></p>
       </footer>
-      <script src="js/app.js"></script>
+      <!-- <script src="js/app.js"></script> -->
   </body>
 </html>
