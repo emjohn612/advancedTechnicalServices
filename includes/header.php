@@ -1,3 +1,7 @@
+<?php
+    include('includes/arrays.php');
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -16,8 +20,17 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     </head>
   <body>
-<div class="container-fluid">
-    <div class="jumbotron text-center">
+  <div class="container-fluid" style ="padding: 0;">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-between">
+      <a class="navbar-brand" href="index.php">ATS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <?php include('includes/nav.php'); ?>
+      </nav>
+    </div>
+<header class="container-fluid">
+    <div class="jumbotron text-center vertical-center">
       <h1>Advanced Technical Services</h1>
       <p>Commercial and Residential HVAC</p>
       <form class="form-inline">
@@ -29,7 +42,4 @@
         </div>
       </form>
     </div>
-<div>
-      <nav class="navbar navbar-expand-sm justify-content-center">
-        <?php include('includes/nav.php'); ?>
-      </nav>
+</header>
